@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>stronka</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.4.1.min.js">
+        
+        
+          
+               
+            
+        
+        </script>
+
+        <script type="text/javascript">
+        function rekt()
+        {
+
+            $(document).ready(function(){
+                
+                $('nav').one("click", function(){
+                    
+                    $('a').css("background-color","yellow");
+                    $('a').css({"background-color":"orange", "border":"solid 10px purple", "height": "+=15px", "color": "#000" });
+                    $('.x').css({"width": "17%","padding-bottom": "+=15px" });
+                    $('.size').css({"height": "=+65px"});
+                    
+                   /*setTimeout(function(){
+                        location.reload();
+                    }, 1000);*/
+                })
+
+                $('.img_2').css("display", "none");
+                
+            })
+            
+            
+        }
+        
+
+        rekt();
+
+        /*setTimeout(function() {
+           $('.img_1').remove();
+           
+        }, 1000);
+
+        setTimeout(function() {
+            $('.img_2').css({"display": "block"});
+
+        }, 1000);*/
+
+
+        function linking()
+        {
+            $(this).ready(function(){
+                $('.one').click(function(){
+                    $('.second').css("display", "none");
+                    $('.first').css("display", "block");
+                    $('.third').css("display", "none");
+                    $('.fourth').css("display", "none");
+
+
+
+            })
+
+
+
+
+            })
+            $(this).ready(function(){
+                $('.two').click(function(){
+                    $('.second').css("display", "block");
+                    $('.first').css("display", "none");
+                    $('.fourth').css("display", "none");
+                    $('.third').css("display", "none");
+
+
+
+            })
+
+
+
+
+            })
+
+            $(this).ready(function(){
+                $('.three').click(function(){
+                    $('.second').css("display", "none");
+                    $('.first').css("display", "none");
+                    $('.fourth').css("display", "none");
+                    $('.third').css("display", "block");
+
+
+
+
+            })
+
+
+
+
+            })
+            $(this).ready(function(){
+                $('.four').click(function(){
+                    $('.second').css("display", "none");
+                    $('.first').css("display", "none");
+                    $('.fourth').css("display", "block");
+                    $('.third').css("display", "none");
+
+
+
+
+            })
+
+
+
+
+            })
+
+          
+
+
+        }
+
+
+        linking();
+ 
+        /*$(document).ready(function(){
+                $('.img_2').setTimeOut('onmousemove', function(){
+                    $('.img_2').wrapInner().css("display", "block");
+
+
+                }, 1000)
+
+
+
+
+            })*/
+
+        
+           
+                  
+       
+         
+        </script>
+    </head>
+    <body class="no-js">
+        <main class="all">
+                <div class="box">
+                        <header class="header">
+                            <div class="logo">
+
+                                <img class="logo_img" src="images/logo_1.jpg">
+
+                            </div>
+            
+                        </header>
+                        <nav class="nav">
+                            <div class="navi">
+                                <div class="one x">
+
+                                    <a class="size" href="#">pierwsze zdjęcie</a>
+
+                                </div>
+                                <div class="two x">
+                                    <a class="size" href="#">drugie zdjęcie</a>
+
+                                </div>
+                                <div class="three x">
+                                        <a class="size" href="#">trzecie zdjęcie</a>
+
+                                </div>
+                                <div class="four x">
+                                        <a class="size" href="#">czwarte zdjęcie</a>
+                                        
+                                </div>
+                            </div>
+            
+            
+                        </nav>
+                        <article class="mid">
+                            <div class="img">
+                                <img class="first" src="images/first.jpg">
+                                <img class="second" src="images/two.jpg">
+                                <img class="third" src="images/three.jpg">
+                                <img class="fourth" src="images/fourth.jpg">
+                                
+
+
+                            </div>
+                        </article>
+            
+            
+                        <footer class="foot">
+                            <div class="foot">
+                                <p class="stopka">Wojciech Kulas</p>
+
+                            </div>
+            
+                        </footer>
+            
+            
+            
+            
+            
+                    </div>
+
+
+        </main>
+        
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+      
+    </body>
+</html>
